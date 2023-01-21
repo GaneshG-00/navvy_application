@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:navvi_user/login.dart';
 
 class SignUp extends StatelessWidget {
@@ -18,10 +16,10 @@ class SignUp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
-              Text(
+              const Text(
                 'Sign Up',
                 style: TextStyle(
                     color: Colors.black,
@@ -29,14 +27,14 @@ class SignUp extends StatelessWidget {
                     fontSize: 30),
                 textAlign: TextAlign.center,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
-              Text(
+              const Text(
                 "SignUp here,It's Totally free",
                 style: TextStyle(color: Colors.grey),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Padding(
@@ -48,7 +46,7 @@ class SignUp extends StatelessWidget {
                       hintText: 'Username'),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
@@ -60,7 +58,7 @@ class SignUp extends StatelessWidget {
                       hintText: 'Email Address'),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
@@ -72,7 +70,7 @@ class SignUp extends StatelessWidget {
                       hintText: 'Mobile Number'),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
@@ -84,7 +82,7 @@ class SignUp extends StatelessWidget {
                       hintText: 'Password'),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Padding(
