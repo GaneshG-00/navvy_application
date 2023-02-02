@@ -86,11 +86,7 @@ class Login extends StatelessWidget {
                             'Register Now',
                             style: TextStyle(
                                 color: Color.fromARGB(255, 103, 175, 234)),
-                          )), const Text(
-                            'Register Now',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 103, 175, 234)),
-                          )
+                          )),
                     ],
                   )
                 ],
